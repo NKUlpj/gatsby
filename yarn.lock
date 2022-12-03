@@ -3847,7 +3847,7 @@ algoliasearch-helper@^3.11.1:
   dependencies:
     "@algolia/events" "^4.0.1"
 
-algoliasearch@^4.12.1:
+algoliasearch@^4.12.1, algoliasearch@^4.9.1:
   version "4.14.2"
   resolved "https://registry.npmjs.org/algoliasearch/-/algoliasearch-4.14.2.tgz"
   integrity sha512-ngbEQonGEmf8dyEh5f+uOIihv4176dgbuOZspiuhmTTBRBuzWu3KCGHre6uHj5YyuC7pNvQGzB6ZNJyZi0z+Sg==
@@ -7272,6 +7272,14 @@ gatsby-parcel-config@0.15.1:
     "@parcel/transformer-js" "2.6.2"
     "@parcel/transformer-json" "2.6.2"
 
+gatsby-plugin-algolia@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-algolia/-/gatsby-plugin-algolia-1.0.1.tgz#12148b8e6137331a0001431689969552a7abf7de"
+  integrity sha512-+NmLfFGpf+utM9mLzwAKJRuootXnQGvZxpL1qmevU2figfZny2avZf9z/TL6z8/O3eYfULeHiBcTRVEx6qeIew==
+  dependencies:
+    algoliasearch "^4.9.1"
+    lodash.chunk "^4.2.0"
+
 gatsby-plugin-catch-links@^4.14.0:
   version "4.24.0"
   resolved "https://registry.npmjs.org/gatsby-plugin-catch-links/-/gatsby-plugin-catch-links-4.24.0.tgz"
@@ -9588,6 +9596,11 @@ lodash.bind@^4.1.4:
   version "4.2.1"
   resolved "https://registry.npmjs.org/lodash.bind/-/lodash.bind-4.2.1.tgz"
   integrity sha512-lxdsn7xxlCymgLYo1gGvVrfHmkjDiyqVv62FAeF2i5ta72BipE1SLxw8hPEPLhD4/247Ijw07UQH7Hq/chT5LA==
+
+lodash.chunk@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.chunk/-/lodash.chunk-4.2.0.tgz#66e5ce1f76ed27b4303d8c6512e8d1216e8106bc"
+  integrity sha512-ZzydJKfUHJwHa+hF5X66zLFCBrWn5GeF28OHEr4WVWtNDXlQ/IjWKPBiikqKo2ne0+v6JgCgJ0GzJp8k8bHC7w==
 
 lodash.clonedeep@4.5.0:
   version "4.5.0"
