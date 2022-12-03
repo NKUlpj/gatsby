@@ -1,0 +1,21 @@
+{
+    "name": "nkul",
+    "title": "AI Engineer",
+    "description": "Everthing is ok.",
+    "thumbnail": "steve-grant.png",
+    "social": [
+      {
+        "name": "Github",
+        "url": "https://github.com/nkul"
+      },
+      {
+        "name": "Bilibili",
+        "url": "https://space.bilibili.com/412756013"
+      },
+      {
+        "name": "Website",
+        "url": "https://bio.nankai.edu.cn"
+      }
+    ],
+    "skills": ["Javascript", "Python", "C++"]
+  }

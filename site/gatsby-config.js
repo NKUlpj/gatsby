@@ -1,3 +1,4 @@
+require('dotenv').config()
 module.exports = {
   flags: {
     DEV_SSR: true
@@ -7,19 +8,22 @@ module.exports = {
       resolve: '@elegantstack/gatsby-theme-flexiblog-beauty',
       options: {
         // Add theme options here. Check documentation for available options.
-        siteUrl: process.env.URL || process.env.VERCEL_URL
+        siteUrl: process.env.URL || process.env.VERCEL_URL,
+        services: {
+          graphComment: true
+        }
       }
     }
   ],
   // Customize your site metadata:
   siteMetadata: {
     //General Site Metadata
-    title: 'FlexiBlog Theme',
+    title: 'FlexiBlog',
     name: 'FlexiBlog',
     description: 'My site description...',
-    address: 'New York, NY',
+    address: 'Tianjin, China',
     email: 'klstftz@gmail.com',
-    phone: '+1 (888) 888-8888',
+    phone: '+86 18526442843',
 
     //Site Social Media Links
     social: [
@@ -29,11 +33,11 @@ module.exports = {
       },
       {
         name: 'Bilibili',
-        url: 'https://twitter.com/gatsbyjs'
+        url: 'https://space.bilibili.com/412756013'
       },
       {
         name: 'Instagram',
-        url: 'https://github.com/gatsbyjs'
+        url: 'https://github.com/nkulpj'
       }
     ],
 
@@ -64,7 +68,7 @@ module.exports = {
           },
           {
             name: 'About Us',
-            slug: '/about'
+            slug: '/contact'
           },
           {
             name: 'Contact Us',
