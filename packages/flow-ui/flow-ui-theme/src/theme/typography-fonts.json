@@ -5,7 +5,7 @@
     }
   },
   "theme": {
-    "headerFontFamily": ["Inter", "sans-serif"],
+    "headerFontFamily": ["Consolas","楷体","Inter", "sans-serif"],
     "bodyFontFamily": ["Consolas","楷体","Inter", "sans-serif"]
   }
 }

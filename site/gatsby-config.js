@@ -1,4 +1,5 @@
 require('dotenv').config()
+const fontFile = require('../packages/flow-ui/flow-ui-theme/src/theme/typography-fonts.json')
 module.exports = {
   flags: {
     DEV_SSR: true
@@ -11,7 +12,8 @@ module.exports = {
         siteUrl: process.env.URL || process.env.VERCEL_URL,
         services: {
           graphComment: true
-        }
+        },
+        fonts: fontFile.fonts
       }
     }
   ],
