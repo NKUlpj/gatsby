@@ -1,5 +1,4 @@
 require('dotenv').config()
-import * as globalStyle from "./global.module.css"
 module.exports = {
   flags: {
     DEV_SSR: true
