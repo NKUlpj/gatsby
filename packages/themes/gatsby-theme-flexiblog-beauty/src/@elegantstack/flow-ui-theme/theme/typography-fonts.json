@@ -8,7 +8,7 @@
     }
   },
   "theme": {
-    "headerFontFamily": ["Spectral", "serif"],
-    "bodyFontFamily": ["Consolas","楷体","Karla", "sans-serif"]
+    "headerFontFamily": ["Consolas", "Menlo", "Monaco", "source-code-pro", "Courier New", "monospace","行楷","楷体"],
+    "bodyFontFamily": ["Consolas", "Menlo", "Monaco", "source-code-pro", "Courier New", "monospace","行楷","楷体"]
   }
 }

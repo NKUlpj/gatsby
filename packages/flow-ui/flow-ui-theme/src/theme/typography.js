@@ -17,7 +17,7 @@ typographyTheme.space = null
 
 typographyTheme.fonts = {
   ...typographyTheme.fonts,
-  monospace: `Consolas, Menlo, Monaco, source-code-pro, Courier New, monospace`
+  monospace: `Consolas, Menlo, Monaco, source-code-pro, Courier New, monospace, 行楷, 楷体`
 }
 
 typographyTheme.fontWeights = {
